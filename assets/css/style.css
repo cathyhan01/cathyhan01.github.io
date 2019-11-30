@@ -1,0 +1,261 @@
+body {
+  margin: 0px;
+  overflow: scroll;
+  height: 100vh;
+  width: 100vw;
+}
+
+ul, a {
+  list-style-type: none;
+  font-family: 'Raleway';
+  font-size: 20px;
+  text-decoration: none;
+  color: #545454;
+}
+
+#sidebar {
+  background-color: #d6d6d6;
+  position: fixed;
+  height: 100%;
+  width: 220px;
+  left: -220px;
+  transition: .5s;
+}
+
+#sidebar.show {
+  left: 0;
+}
+
+#sidebar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35vh;
+}
+
+#sidebar li {
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #545454;
+  transition: .3s;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #545454;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+a:active {
+  text-decoration: none;
+  color: #000000;
+}
+
+#sidebar .menu-button {
+  position: absolute;
+  left: 250px;
+  top: 30px;
+}
+
+.menu-button span {
+  background: #707070;
+  height: 3px;
+  width: 40px;
+  display: block;
+  margin-bottom: 10px;
+  transition: .3s;
+}
+
+.menu-button:hover {
+  cursor: pointer;
+}
+
+.menu-button:hover span {
+  background-color: black;
+}
+
+.content {
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding-left: 320px;
+  padding-top: 40vh;
+}
+
+.main-header {
+  font-family: 'Cormorant Garamond';
+  font-size: 40px;
+  font-weight: bold;
+  color: #3b3b3b;
+}
+
+.sub-header {
+  font-family: 'Cormorant Garamond';
+  font-size: 25px;
+  font-weight: lighter;
+  color: #707070;
+  padding-bottom: 20px;
+}
+
+/* content code below for about.html, portfolio.html, contact.html */
+.alternate-content {
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding-left: 320px;
+  padding-top: 23px;
+  padding-right: 200px;
+}
+
+.about-text {
+  font-family: 'Raleway';
+  line-height: 22px;
+  font-size: 17px;
+}
+
+/* content code below for about.html */
+.body-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about-text {
+  padding-right: 70px;
+}
+
+.about-img img {
+  border-radius: 50%;
+}
+
+/* content code below for portfolio.html */
+#carousel1, .carousel-image1 {
+  width: 1000px;
+  height: 777.78px;
+  border-radius: 10px;
+}
+
+#carousel2, .carousel-image2 {
+  width: 700px;
+  height: 933.33px;
+  border-radius: 10px;
+}
+
+#carousel1 {
+  position: relative;
+  overflow: hidden;
+}
+
+#carousel2 {
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+
+#carousel-image-row1 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 0px;
+  transition: 0.5s left;
+}
+
+#carousel-image-row2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 0px;
+  transition: 0.5s left;
+}
+
+.carousel-image1 img, .carousel-image2 img {
+  height: 100%;
+  width: auto;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#carousel-controls1, #carousel-controls2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#button-next1, #button-previous1, #button-next2, #button-previous2 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+/* content code below for contact.html */
+.form-content {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  font-size: 18px;
+  font-family: 'Raleway';
+}
+
+form[name="upper"] {
+  width: 50%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 5px;
+  margin: 15px 0px;
+  font-size: 16px;
+  font-family: 'Raleway';
+  border-style: groove;
+}
+
+form[name="lower"] {
+  width: 80%;
+}
+
+input[name="email"] {
+  margin-bottom: 0px;
+}
+
+textarea {
+  padding: 5px;
+  margin: 15px 0px;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'Raleway';
+  border-style: groove;
+  border-color: #dedede;
+}
+
+input[type=submit] {
+  cursor: pointer;
+  margin: 4px 0px;
+  padding: 10px 20px;
+  background-color: #fafafa;
+  border-radius: 5px;
+}
