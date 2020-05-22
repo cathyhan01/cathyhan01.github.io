@@ -1,8 +1,3 @@
-/* @viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-} */
-
 body {
   margin: 0px;
   overflow: scroll;
@@ -130,6 +125,8 @@ a:active {
   font-family: 'Raleway';
   line-height: 22px;
   font-size: 17px;
+  width: auto;
+  height: 100%;
 }
 
 /* content code below for about.html */
