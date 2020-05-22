@@ -1,3 +1,5 @@
+@media screen and (max-width: 481px){
+
 body {
   margin: 0px;
   overflow: scroll;
@@ -259,4 +261,5 @@ input[type=submit] {
   padding: 10px 20px;
   background-color: #fafafa;
   border-radius: 5px;
+}
 }
