@@ -136,7 +136,7 @@ a:active {
   height: 100%; */
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:100px) {
   /* CSS for screens that are 320 pixels or less will be put in this section */
   .body-content {
     display: flex;
@@ -148,7 +148,7 @@ a:active {
     font-family: 'Raleway';
     line-height: 22px;
     font-size: 17px;
-    position: absolute;
+    width: 100%;
   }
 }
 
