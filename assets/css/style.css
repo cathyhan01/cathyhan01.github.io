@@ -143,14 +143,14 @@ a:active {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-
+    font-size: 5vw;
   }
-  .about-text {
+  /* .about-text {
     font-family: 'Raleway';
     line-height: 22px;
     font-size: 17px;
     width: 100%;
-  }
+  } */
 }
 
 .about-text {
