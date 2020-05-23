@@ -144,14 +144,6 @@ a:active {
     justify-content: center;
     width: 100%;
   }
-  #sidebar {
-    background-color: #d6d6d6;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    left: -220px;
-    transition: .5s;
-  }
   /* .about-text {
     font-family: 'Raleway';
     line-height: 22px;
