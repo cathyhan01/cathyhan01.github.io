@@ -152,26 +152,24 @@ a:active {
 }
 
 /* content code below for portfolio.html */
-
-
-#slider {
+#slider1 {
   overflow: hidden;
 }
 
-#slider figure {
+#slider1 figure {
   position: relative;
   width: 500%;
   margin: 0;
   left: 0;
-  animation: 15s slider infinite;
+  animation: 15s slider1 infinite;
 }
 
-#slider figure img {
+#slider1 figure img {
   width: 20%;
   float: left;
 }
 
-@keyframes slider {
+@keyframes slider1 {
   0% {left: 0;}
   10% {left: 0;}
   20% {left: -100%;}
@@ -185,81 +183,53 @@ a:active {
   100% {left: 0;}
 }
 
-
-
-/* #carousel1, .carousel-image1 {
-  width: 1000px;
-  height: 777.78px;
-
-  height: 90vh;
-  width: 57vw;
-
-  border-radius: 10px;
-} */
-
-#carousel2, .carousel-image2 {
-  /* width: 700px;
-  height: 933.33px; */
-  height: 90vh;
-  width: 32vw;
-  /* border-radius: 10px; */
+#slider2 {
+  overflow: hidden;
 }
 
-/* #carousel1 {
-  position: relative;
-  overflow: hidden;
-} */
-
-#carousel2 {
-  position: relative;
-  overflow: hidden;
+#slider2 figure {
   margin-top: 50px;
-  margin-left: 150px;
-  margin-bottom: 100px;
-}
-
-/* #carousel-image-row1 {
-  display: flex;
-  flex-direction: row;
   position: relative;
-  left: 0px;
-  transition: 0.5s left;
-} */
-
-#carousel-image-row2 {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  left: 0px;
-  transition: 0.5s left;
+  width: 900%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  left: 0;
+  animation: 17s slider2 infinite;
 }
 
-/* .carousel-image1 img,  */
-.carousel-image2 img {
-  height: 100%;
-  width: auto;
+#slider2 figure img {
+  width: 11.11%;
+  /* height: 600px; */
+  float: left;
+  /* max-width: 500%;
+  min-height: 100%; */
+  /* object-fit: cover; */
 }
 
-.hidden {
-  visibility: hidden;
+@keyframes slider2 {
+  0% {left: 0;}
+  5% {left: 0;}
+  10% {left: 0;}
+  15% {left: -100%}
+  20% {left: -100%;}
+  25% {left: -200%;}
+  30% {left: -200%;}
+  35% {left: -300%;}
+  40% {left: -300%;}
+  45% {left: -400%;}
+  55% {left: -400%;}
+  60% {left: -500%;}
+  65% {left: -500%;}
+  70% {left: -600%;}
+  75% {left: -600%;}
+  80% {left: -700%;}
+  85% {left: -700%;}
+  90% {left: -800%;}
+  95% {left: -800%;}
+  100% {left: 0;}
 }
 
-#carousel-controls1, #carousel-controls2 {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    z-index: 1;
-}
-
-#button-next1, #button-previous1, #button-next2, #button-previous2 {
-    background: none;
-    border: none;
-    cursor: pointer;
-    outline: none;
-}
 
 /* content code below for contact.html */
 .form-content {
