@@ -6,8 +6,10 @@ function confirm() {
   alert("Thank you for contacting me! I will try to get back to you as soon as possible. In the mean time, if you have any other additional questions or comments, feel free to contact me using the form again. Thank you!")
 }
 
-let carouselWidth1 = 1000;
-let carouselWidth2 = 700;
+// let carouselWidth1 = 1000;
+let carouselWidth1 = document.getElementById("carousel1").clientWidth;
+// let carouselWidth2 = 700;
+let carouselWidth2 = document.getElementById("carousel2").clientWidth;
 let prevButton1 = document.getElementById("button-previous1");
 let nextButton1 = document.getElementById("button-next1");
 let prevButton2 = document.getElementById("button-previous2");

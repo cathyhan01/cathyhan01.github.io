@@ -140,7 +140,6 @@ a:active {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
   }
 }
 
@@ -154,15 +153,19 @@ a:active {
 
 /* content code below for portfolio.html */
 #carousel1, .carousel-image1 {
-  width: 1000px;
-  height: 777.78px;
-  border-radius: 10px;
+  /* width: 1000px;
+  height: 777.78px; */
+  height: 90vh;
+  width: 57vw;
+  /* border-radius: 10px; */
 }
 
 #carousel2, .carousel-image2 {
-  width: 700px;
-  height: 933.33px;
-  border-radius: 10px;
+  /* width: 700px;
+  height: 933.33px; */
+  height: 90vh;
+  width: 32vw;
+  /* border-radius: 10px; */
 }
 
 #carousel1 {
