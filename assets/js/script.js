@@ -18,11 +18,86 @@ function confirm() {
 // let imageNum2 = 0;
 
 // Implement backend for the form submission and data processing
+// function validation(){
+//   var name = document.getElementById("name").value;
+//   var subject = document.getElementById("subject").value;
+//   var phone = document.getElementById("phone").value;
+//   var email = document.getElementById("email").value;
+//   var message = document.getElementById("message").value;
+//   var error_message = document.getElementById("error_message");
+//
+//   error_message.style.padding = "10px";
+//
+//   if(name.length < 1){
+//     text = "Please enter your name";
+//     error_message.innerHTML = text;
+//     return false;
+//   }
+//   if(subject.length < 1){
+//     text = "Please enter the subject";
+//     error_message.innerHTML = text;
+//     return false;
+//   }
+//   if(isNaN(phone) || phone.length != 10){
+//     text = "Please enter a valid phone number";
+//     error_message.innerHTML = text;
+//     return false;
+//   }
+//   if(email.indexOf("@") == -1 || email.length < 6){
+//     text = "Please enter a valid email";
+//     error_message.innerHTML = text;
+//     return false;
+//   }
+//   if(message.length <= 1){
+//     text = "Please enter a message";
+//     error_message.innerHTML = text;
+//     return false;
+//   }
+//   error_message.style.padding = "0";
+//   alert("Form submitted successfully!")
+//   return true;
+// }
+
+
+// const firstname = document.getElementById("firstname");
+// const lastname = document.getElementById("lastname");
+// const email = document.getElementById("email");
+// const message = document.getElementById("message");
+// const form = document.getElementById("form");
+// const errorElement = document.getElementById("error");
+//
+// form.addEventListener("submit", (e) => {
+//   let messages = []
+//   if (firstname.value === "" || firstname.value == null) {
+//     messages.push("First name is required")
+//   }
+//   if (lastname.value === "" || lastname.value == null) {
+//     messages.push("Last name is required")
+//   }
+//   if (email.value === "" || email.value == null) {
+//     messages.push("Email is required")
+//   }
+//   if (message.value === "" || message.value == null) {
+//     messages.push("Message is required")
+//   }
+//   if (messages.length > 0) {
+//     e.preventDefault()
+//     errorElement.innerText = messages.join(', ')
+//   }
+// })
+
+
+
+
 // const { body,validationResult } = require('express-validator/check');
 // const { sanitizeBody } = require('express-validator/filter');
 //
 // body('firstname').isLength({ min: 1 }).trim().withMessage('Name empty.'),
 // body('age', 'Invalid age').optional({ checkFalsy: true }).isISO8601(),
+
+
+
+
 
 // function showNextImage1() {
 // 	imageNum1 += 1;

@@ -240,31 +240,47 @@ form {
   font-family: 'Raleway';
 }
 
-form[name="upper"] {
-  width: 50%;
+textarea {
+  height: 120px;
+  width: 100%;
+  resize: none;
 }
+
+#error_message {
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #fe8b8e;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+  font-family: 'Raleway';
+}
+
+/* form[name="upper"] {
+  width: 50%;
+} */
 
 input[type=text] {
   width: 100%;
   padding: 5px;
   margin: 15px 0px;
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'Raleway';
   border-style: groove;
 }
 
-form[name="lower"] {
+/* form[name="lower"] {
   width: 80%;
 }
 
 input[name="email"] {
   margin-bottom: 0px;
-}
+} */
 
 textarea {
   padding: 5px;
   margin: 15px 0px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 28px;
   font-family: 'Raleway';
   border-style: groove;
@@ -277,4 +293,10 @@ input[type=submit] {
   padding: 10px 20px;
   background-color: #fafafa;
   border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #3b3b3b;
+  width: 100%;
+  font-family: 'Raleway';
+  font-size: 12px;
 }
