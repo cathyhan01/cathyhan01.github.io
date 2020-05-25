@@ -152,13 +152,50 @@ a:active {
 }
 
 /* content code below for portfolio.html */
-#carousel1, .carousel-image1 {
-  /* width: 1000px;
-  height: 777.78px; */
+
+
+#slider {
+  overflow: hidden;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 15s slider infinite;
+}
+
+#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {left: 0;}
+  10% {left: 0;}
+  20% {left: -100%;}
+  30% {left: -100%;}
+  40% {left: -200%;}
+  50% {left: -200%;}
+  60% {left: -300%;}
+  70% {left: -300%;}
+  80% {left: -400%;}
+  90% {left: -400%;}
+  100% {left: 0;}
+}
+
+
+
+/* #carousel1, .carousel-image1 {
+  width: 1000px;
+  height: 777.78px;
+
   height: 90vh;
   width: 57vw;
-  /* border-radius: 10px; */
-}
+
+  border-radius: 10px;
+} */
 
 #carousel2, .carousel-image2 {
   /* width: 700px;
@@ -168,10 +205,10 @@ a:active {
   /* border-radius: 10px; */
 }
 
-#carousel1 {
+/* #carousel1 {
   position: relative;
   overflow: hidden;
-}
+} */
 
 #carousel2 {
   position: relative;
@@ -181,13 +218,13 @@ a:active {
   margin-bottom: 100px;
 }
 
-#carousel-image-row1 {
+/* #carousel-image-row1 {
   display: flex;
   flex-direction: row;
   position: relative;
   left: 0px;
   transition: 0.5s left;
-}
+} */
 
 #carousel-image-row2 {
   display: flex;
@@ -197,7 +234,8 @@ a:active {
   transition: 0.5s left;
 }
 
-.carousel-image1 img, .carousel-image2 img {
+/* .carousel-image1 img,  */
+.carousel-image2 img {
   height: 100%;
   width: auto;
 }
