@@ -41,16 +41,16 @@
 
         <form name="upper">
           First Name:<br>
-          <input type="text" name="firstname"><br>
+          <input type="text" name="firstname" required><br>
           Last Name:<br>
-          <input type="text" name="lastname"><br>
+          <input type="text" name="lastname" required><br>
           Email:<br>
-          <input type="text" name="email"><br>
+          <input type="text" name="email" required><br>
         </form>
         <form name="lower">
           Message:<br>
           <textarea rows="5" cols ="100" name="message"></textarea>
-          <input type="submit" value="submit" onclick=confirm()>
+          <input type="submit" value="submit" onclick=confirm() required>
         </form>
 
       </div>
