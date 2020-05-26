@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/script.js"></script>
 
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"/> -->
-
   </head>
 
   <body>
@@ -43,63 +41,24 @@
         <!-- <form id="form" onsubmit="return validation()"> -->
         <form id="form" action="https://formspree.io/xpzypdwr" method="POST">
           <div class="input_field">
-            <input type="text" placeholder="Name" name="name">
+            <input type="text" placeholder="Name" name="name" required>
           </div>
           <div class="input_field">
-            <input type="text" placeholder="Subject" name="subject">
+            <input type="text" placeholder="Subject" name="subject" required>
           </div>
           <div class="input_field">
-            <input type="text" placeholder="Phone" name="phone">
+            <input type="text" placeholder="Phone" name="phone" required>
           </div>
           <div class="input_field">
-            <input type="text" placeholder="Email" name="email">
+            <input type="text" placeholder="Email" name="email" required>
           </div>
           <div class="input_field">
-            <textarea name="message" placeholder="Message"></textarea>
+            <textarea name="message" placeholder="Message" required></textarea>
           </div>
           <div class="btn">
             <input type="submit">
           </div>
         </form>
-
-
-
-
-
-        <!-- <div id="error"></div>
-        <form id="form" action="/" method="GET">
-          <div>
-            <label for="firstname">First name*:</label>
-            <input id="firstname" name="firstname" type="text" required>
-          </div>
-          <div>
-            <label for="lastname">Last name*:</label>
-            <input id="lastname" name="lastname" type="text" required>
-          </div>
-          <div>
-            <label for="email">Email address*:</label>
-            <input id="email" name="email" type="text" required>
-          </div>
-          <div>
-            <label for="message">Message*:</label>
-            <input id="message" name="message" type="text" required>
-          </div>
-          <button type="submit">Submit</button> -->
-
-
-        <!-- <form name="upper">
-          First Name:*<br>
-          <input type="text" name="firstname" required><br>
-          Last Name:*<br>
-          <input type="text" name="lastname" required><br>
-          Email:*<br>
-          <input type="text" name="email" required><br>
-        </form>
-        <form name="lower">
-          Message:*<br>
-          <textarea rows="5" cols ="100" name="message"></textarea>
-          <input type="submit" value="submit" onclick=confirm() required>
-        </form> -->
 
       </div>
 

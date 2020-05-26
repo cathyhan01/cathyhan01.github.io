@@ -14,7 +14,7 @@ ul, a {
 }
 
 #sidebar {
-  background-color: #d6d6d6;
+  background-color: #f2f2f2;
   position: fixed;
   height: 100%;
   width: 220px;
@@ -99,6 +99,7 @@ a:active {
   font-size: 40px;
   font-weight: bold;
   color: #3b3b3b;
+  animation: fade ease 3s;
 }
 
 .sub-header {
@@ -107,6 +108,12 @@ a:active {
   font-weight: lighter;
   color: #707070;
   padding-bottom: 20px;
+  animation: fade ease 5s;
+}
+
+@keyframes fade {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
 
 /* content code below for about.html, portfolio.html, contact.html */
@@ -132,6 +139,7 @@ a:active {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  animation: fade ease 5s;
 }
 
 @media screen and (max-width:1300px) {
@@ -238,6 +246,7 @@ a:active {
 form {
   font-size: 18px;
   font-family: 'Raleway';
+  animation: fade ease 5s;
 }
 
 textarea {
@@ -256,10 +265,6 @@ textarea {
   font-family: 'Raleway';
 }
 
-/* form[name="upper"] {
-  width: 50%;
-} */
-
 input[type=text] {
   width: 100%;
   padding: 5px;
@@ -268,14 +273,6 @@ input[type=text] {
   font-family: 'Raleway';
   border-style: groove;
 }
-
-/* form[name="lower"] {
-  width: 80%;
-}
-
-input[name="email"] {
-  margin-bottom: 0px;
-} */
 
 textarea {
   padding: 5px;
@@ -298,5 +295,5 @@ input[type=submit] {
   color: #3b3b3b;
   width: 100%;
   font-family: 'Raleway';
-  font-size: 12px;
+  font-size: 13px;
 }
